@@ -1,0 +1,17 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "AZURE_STORAGE_ACCOUNT=${npm_config_AZURE_STORAGE_ACCOUNT} AZURE_STORAGE_ACCESS_KEY=${npm_config_AZURE_STORAGE_ACCESS_KEY} SUBSCRIPTIONKEY=${npm_config_SUBSCRIPTIONKEY} CONTAINERNAME=${npm_config_CONTAINERNAME} EXZTAUTHU=${npm_config_EXZTAUTHU} EXZTAUTHP=${npm_config_EXZTAUTHP} nodemon storage.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure": "^2.0.0-preview",
+    "azure-storage": "^2.1.0",
+    "level": "^1.7.0"
+  }
+}
